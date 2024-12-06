@@ -9,7 +9,7 @@ import cv2
 EMPTY = True
 NOT_EMPTY = False
 
-MODEL = pickle.load(open("/Users/chouaibchegdati/PycharmProjects/MyFirstProject/venv/model.p", "rb"))
+MODEL = pickle.load(open("/Users/chouaibchegdati/Desktop/Parking_space_recognition/model.p", "rb"))
 
 
 def empty_or_not(spot_bgr):
@@ -51,7 +51,7 @@ def get_parking_spots_bboxes(connected_components):
 
 # Charger une image de test (par exemple une image de place de parking)
 # Assure-toi que l'image est dans le bon répertoire ou spécifie le chemin complet
-image_path = '/Users/chouaibchegdati/PycharmProjects/MyFirstProject/Data/clf-data/not_empty/00000000_00000005.jpg'
+image_path = '/Users/chouaibchegdati/Desktop/Parking_space_recognition/Data/clf-data/empty/00000000_00000161.jpg'
 spot_bgr = cv2.imread(image_path)
 
 
