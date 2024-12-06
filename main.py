@@ -9,9 +9,8 @@ def calc_diff(im1, im2):
 
 
 # Initialisation des chemins des fichiers
-mask = '/Users/chouai' \
-       'bchegdati/PycharmProjects/MyFirstProject/Data/mask_1920_1080.png'
-video_path = '/Users/chouaibchegdati/PycharmProjects/MyFirstProject/Data/parking_1920_1080_loop.mp4'
+mask = '/Users/chouaibchegdati/Desktop/Parking_space_recognition/Data/mask_1920_1080.png
+video_path = '/Users/chouaibchegdati/Desktop/Parking_space_recognition/Data/parking_1920_1080_loop.mp4'
 
 # Chargement du masque et ouverture de la vidéo
 mask = cv2.imread(mask, 0)
