@@ -57,7 +57,7 @@ score = accuracy_score(y_prediction, y_test)
 
 print('{}% of samples were correctly classified'.format(str(score * 100)))
 
-pickle.dump(best_estimator, open('./model.p', 'wb'))
+pickle.dump(best_estimator, open('model/model.p'', 'wb'))
 
 # matrice de confusion
 
