@@ -18,7 +18,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
 # prepare data
-input_dir = '/Users/chouaibchegdati/PycharmProjects/MyFirstProject/Data/clf-data'
+input_dir = '/Users/chouaibchegdati/PycharmProjects/Parking_space_recognition/Data/clf-data'
 categories = ['empty', 'not_empty']
 
 data = []
