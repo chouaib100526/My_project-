@@ -9,7 +9,7 @@ import cv2
 EMPTY = True
 NOT_EMPTY = False
 
-MODEL = pickle.load(open("/Users/chouaibchegdati/Desktop/Parking_space_recognition/model/model.p", "rb"))
+MODEL = pickle.load(open("/Users/chouaibchegdati/PycharmProjects/Parking_space_recognition/model/model.p", "rb"))
 
 
 def empty_or_not(spot_bgr):
