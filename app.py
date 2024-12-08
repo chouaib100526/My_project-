@@ -4,8 +4,8 @@ import streamlit as st
 from util import get_parking_spots_bboxes, empty_or_not
 
 # Chemins des fichiers
-mask_path = '/Users/chouaibchegdati/Desktop/Parking_space_recognition/Data/mask_1920_1080.png'
-video_path = '/Users/chouaibchegdati/Desktop/Parking_space_recognition/Data/parking_1920_1080_loop.mp4'
+mask_path = '/Users/chouaibchegdati/PycharmProjects/Parking_space_recognition/Data/mask_1920_1080.png'
+video_path = '/Users/chouaibchegdati/PycharmProjects/Parking_space_recognition/Data/parking_1920_1080_loop.mp4'
 
 # Chargement du masque et de la vidéo
 mask = cv2.imread(mask_path, 0)
